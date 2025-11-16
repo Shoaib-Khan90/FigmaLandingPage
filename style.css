@@ -595,6 +595,39 @@
 
 }
 
+.Container{
+            position: absolute;
+            top:430%;
+            width: 100%;
+}
+
+.Container>.text7{
+                    width: 600px;
+                    align-items: center;
+                    margin-left: 200px;
+}
+
+.Container>.text7>h1{
+                        font-family: Arial, Helvetica, sans-serif;
+                        margin-bottom: 10px;
+                        text-align: center;
+                        color: #4D4D4D;
+                        font-size: 30px;
+}
+
+.Container>.text7>p{
+                    font-family: Arial, Helvetica, sans-serif;
+                    color: gray;
+                    font-size: 15px;
+                    margin-bottom: 20px;
+                    text-align: center;
+}
+
+.Container>.images1{
+                    display:inline-flex;
+                    
+}
+
 
 
  
