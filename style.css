@@ -665,64 +665,83 @@
                         border: none;
 }
 
+
+.foot{
+  background:#263238;
+  color: white;
+  padding: 50px 0;
+  margin-top: 30px;
+}
+
 .footer{
-        /* border: 1px solid black; */
-        height: 229px;
-        background-color: #263238;
-        
+  width: 85%;
+  margin-top: 30px;
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
 }
 
-.footer>.icon1{
-                margin-top: 10px;
-                margin-left: 60px;
-                /* border: 1px solid black; */
-                padding: 30px;
-                width:150px;
-                display: flex; 
+.footer-left {
+  max-width: 250px;
+  margin-left: 100px;
 }
 
-.footer>.icon1>img{
-                    /* display: flex; */
-                    width: 30px;
-                    height: 25px;
-                    margin-top: 5px;
+.logo-h{
+    display: flex;
+    gap:6px;
+}
+.logo-h>h3{
+    color: white;
+    font-size: 26px;
+
+}
+.footer>.footer-left>p{
+    margin-top: 40px;
+    color: white;
+    font-size: 10px;
+    line-height: 13px;
+}
+.social-icons{
+    display: flex;
+    gap: 20px;
+    width: 32px;
+    margin-right: 10px;
+    font-size: 18px;
+    cursor: pointer;
+    margin-top: 70px;
+}
+/* .social-icons>li>img{ */
+    /* width: 240px; */
+/* } */
+
+.footer-col h3,
+.footer-newsletter h3 {
+  margin-bottom: 15px;
+  font-size: 18px;
 }
 
-.footer>.icon1>h1{
-                    /* display: flex; */
-                    margin-left: 5px;
-                    font-family: Arial, Helvetica, sans-serif;
-                    color: white;
+.footer-col a {
+  display: block;
+  color: #cccccc;
+  margin-bottom: 8px;
+  text-decoration: none;
 }
 
-.footer>.copyright{
-                    /* border: 1px solid black; */
-                    width: 200px;
-                    margin-left: 90px;
+.newsletter-box {
+  display: flex;
+  background: #333;
+  padding: 12px;
+  border-radius: 8px;
 }
 
-.footer>.copyright>p{
-                        color: #F5F7FA;
-                        margin-bottom: 10px;
-                        font-family: Arial, Helvetica, sans-serif;
-                        font-size: 12px;
+.newsletter-box input {
+  border: none;
+  background: transparent;
+  color: white;
+  width: 100%;
+  outline: none;
 }
 
-.footer>.copyright>.fa-brands{
-                                color: white;
-                                margin-top: 20px;
-} 
 
-.footer>.copyright>.fa-solid{
-                                color: white;
-                                margin-left: 10px;
-}
 
-.footer>.copyright>.fa-twitter{
-                                margin-left: 10px;
-}
-
-.footer>.copyright>.fa-youtube{
-                                margin-left: 10px;
-}
 
