@@ -742,6 +742,164 @@
   outline: none;
 }
 
+/* Moblie */
+@media (max-width: 600px) {
+
+    .Header {
+        flex-direction: column;
+        height: auto;
+        padding: 10px;
+    }
+
+    .image1 {
+        margin-inline-start: 10px;
+    }
+
+    .Header > .nav {
+        flex-direction: column;
+        height: auto;
+        border: none;
+    }
+
+    .Header > .nav > ul {
+        flex-direction: column;
+        gap: 10px;
+        margin-left: 0;
+        margin-top: 10px;
+    }
+
+    .parient {
+        position: static;
+        flex-direction: column;
+        height: auto;
+        padding: 20px;
+        text-align: center;
+    }
+
+    .parient > .child {
+        position: static;
+        width: 100%;
+        padding: 10px;
+        text-align: center;
+    }
+
+    .parient > .image2 {
+        position: static;
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        margin-top: 20px;
+    }
+
+    .body2,
+    .body3,
+    .Image,
+    .container,
+    .Images,
+    .help,
+    .main,
+    .Main,
+    .Container,
+    .footer {
+        position: static;
+        width: 100%;
+        margin-top: 50px;
+        flex-direction: column;
+        text-align: center;
+    }
+
+    .container {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .container > div {
+        margin: 20px 0;
+    }
+
+    .Images {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .help {
+        flex-direction: column;
+        gap: 20px;
+        text-align: center;
+        height: auto;
+    }
+
+    .main,
+    .Main {
+        flex-direction: column;
+        padding: 20px;
+    }
+
+    .footer-left {
+        margin-left: 0;
+    }
+
+    .Container > .text7 {
+        margin-left: 0;
+        width: 100%;
+    }
+}
 
 
+/* Tablet */
+@media (max-width: 900px) {
+
+    .Header {
+        padding: 10px;
+    }
+
+    .Header > .nav > ul {
+        gap: 10px;
+    }
+
+    .parient {
+        left: 0;
+        padding: 20px;
+    }
+
+    .parient > .child {
+        left: 0;
+        width: 100%;
+        text-align: center;
+    }
+
+    .parient > .image2 {
+        left: 0;
+        margin: auto;
+        margin-top: 20px;
+    }
+
+    .container {
+        justify-content: center;
+        gap: 20px;
+    }
+
+    .Images {
+        flex-direction: column;
+        text-align: center;
+    }
+
+    .help {
+        flex-direction: column;
+        align-items: center;
+        height: auto;
+    }
+
+    .main,
+    .Main {
+        flex-direction: column;
+        padding: 20px;
+        text-align: center;
+    }
+
+    .Container > .text7 {
+        margin-left: 0;
+        width: 100%;
+    }
+}
 
