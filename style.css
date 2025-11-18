@@ -628,8 +628,101 @@
                     
 }
 
+.final{
+        margin-top: 225%;
+        /* border: 1px solid black; */
+        height: 209px;
+        background-color: #F5F7FA;
+}
 
+.final>.text8{
+                align-items: center;
+                margin: 0 auto;
+                padding: 15px;
+                /* border: 1px solid black; */
+                width: 450px;
+                display: block;
+                
+                
+}
 
- 
+.final>.text8>h1{
+                    margin-top: 20px;
+                    align-items: center;
+                    text-align: center;
+                    font-family: Arial, Helvetica, sans-serif;
+                    font-size: 40px;
+                    margin-bottom: 30px;
+}
 
+.final>.text8>button{
+                        width: 124px;
+                        height: 36px;
+                        border-radius: 2px;
+                        margin-left: 35%;
+                        color: white;
+                        background-color: #4CAF4F;
+                        border: none;
+}
+
+.footer{
+        /* border: 1px solid black; */
+        height: 229px;
+        background-color: #263238;
+        
+}
+
+.footer>.icon1{
+                margin-top: 10px;
+                margin-left: 60px;
+                /* border: 1px solid black; */
+                padding: 30px;
+                width:150px;
+                display: flex; 
+}
+
+.footer>.icon1>img{
+                    /* display: flex; */
+                    width: 30px;
+                    height: 25px;
+                    margin-top: 5px;
+}
+
+.footer>.icon1>h1{
+                    /* display: flex; */
+                    margin-left: 5px;
+                    font-family: Arial, Helvetica, sans-serif;
+                    color: white;
+}
+
+.footer>.copyright{
+                    /* border: 1px solid black; */
+                    width: 200px;
+                    margin-left: 90px;
+}
+
+.footer>.copyright>p{
+                        color: #F5F7FA;
+                        margin-bottom: 10px;
+                        font-family: Arial, Helvetica, sans-serif;
+                        font-size: 12px;
+}
+
+.footer>.copyright>.fa-brands{
+                                color: white;
+                                margin-top: 20px;
+} 
+
+.footer>.copyright>.fa-solid{
+                                color: white;
+                                margin-left: 10px;
+}
+
+.footer>.copyright>.fa-twitter{
+                                margin-left: 10px;
+}
+
+.footer>.copyright>.fa-youtube{
+                                margin-left: 10px;
+}
 
